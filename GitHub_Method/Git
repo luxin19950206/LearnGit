@@ -1,25 +1,42 @@
-1，打开终端，如果想把工程克隆在桌面，首先在终端中切换路径到桌面
+相关值得参考学习的网站
+廖雪峰：https://www.liaoxuefeng.com/
+克隆Github文件到桌面
+1)打开终端，如果想把工程克隆在桌面，首先在终端中切换路径到桌面
 cd /Users/hengzong/Desktop
-2，然后克隆项目，终端输入（后半部分来源于github中想克隆项目的链接即ssh路径）
+2)然后克隆项目，终端输入（后半部分来源于github中想克隆项目的链接即ssh路径）
 git clone https://github.com/luxin19950206/LearnGit.git
 这样项目就可以被克隆到桌面
-
-3,在相关文件中创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹
+3)在相关文件中创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹
 提交修改，首先将终端切换到LearnGit路径
 cd /Users/hengzong/Desktop/LearnGit
-
-4，
-1)将文件添加到仓库 .代表所有的文件
+4）
+a)将文件添加到仓库 .代表所有的文件
 git add .
-2)如果添加单个文件例如文件名readme
+b)如果添加单个文件例如文件名readme
 git add readme.txt
-3)同样也可以添加多个文件
+c)同样也可以添加多个文件
 git add file1.txt file2.txt
 然后在下面写上git commit -m"add 3 files"
 执行完上面命令没有任何提示后就代表成功了
-3)将文件提交到仓库，m后的代表注释
+将文件提交到仓库，m后的代表注释
 git commit -m"..."
-
 
 5将文件上传至github
 git push
+
+版本修改
+1)git status掌握当前仓库的状态
+2)git diff用来查看修改的细节
+3)知道版本修改成什么样子后开始上传相关文件
+git add。。。
+git commit。。。
+全部搞定后可以重新实用git status进行查看
+
+版本回退及查版本
+1)首先利用git log查看历史记录
+2)Git中通常用Head表示当前版本，用Head^表示上一版本
+git reset --hard Head^
+这样就重新回到了上个版本
+3)如果回错了，想重新回到Head的版本，需要调出版本号
+git reflog可以调出版本号
+然后git reset --hard 1094a(1094a是版本号)
