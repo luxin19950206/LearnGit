@@ -7,11 +7,19 @@ git clone https://github.com/luxin19950206/LearnGit.git
 3,在相关文件中创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹
 提交修改，首先将终端切换到LearnGit路径
 cd /Users/hengzong/Desktop/LearnGit
+
 4，
 1)将文件添加到仓库 .代表所有的文件
 git add .
 2)如果添加单个文件例如文件名readme
 git add readme.txt
-3)将文件提交到仓库
+3)同样也可以添加多个文件
+git add file1.txt file2.txt
+然后在下面写上git commit -m"add 3 files"
 执行完上面命令没有任何提示后就代表成功了
-git commit
+3)将文件提交到仓库，m后的代表注释
+git commit -m"..."
+
+
+5将文件上传至github
+git push
