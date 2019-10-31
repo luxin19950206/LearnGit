@@ -1,0 +1,17 @@
+1，打开终端，如果想把工程克隆在桌面，首先在终端中切换路径到桌面
+cd /Users/hengzong/Desktop
+2，然后克隆项目，终端输入（后半部分来源于github中想克隆项目的链接即ssh路径）
+git clone https://github.com/luxin19950206/LearnGit.git
+这样项目就可以被克隆到桌面
+
+3,在相关文件中创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹
+提交修改，首先将终端切换到LearnGit路径
+cd /Users/hengzong/Desktop/LearnGit
+4，
+1)将文件添加到仓库 .代表所有的文件
+git add .
+2)如果添加单个文件例如文件名readme
+git add readme.txt
+3)将文件提交到仓库
+执行完上面命令没有任何提示后就代表成功了
+git commit
