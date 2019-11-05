@@ -1,6 +1,7 @@
 相关值得参考学习的网站
 廖雪峰：https://www.liaoxuefeng.com/
-克隆Github文件到桌面
+
+"""克隆Github文件到桌面"""
 1)打开终端，如果想把工程克隆在桌面，首先在终端中切换路径到桌面
 cd /Users/hengzong/Desktop
 2)然后克隆项目，终端输入（后半部分来源于github中想克隆项目的链接即ssh路径）
