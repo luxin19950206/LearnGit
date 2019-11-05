@@ -1,1 +1,13 @@
-在本地创建一个Git仓库后，又想在Gitub创建一个Git仓库，并且让这两个库远程同步，这样Github的库就可以用来备份同时用来协同操作
+相关文件参考：
+https://blog.csdn.net/qq_40197828/article/details/79283278
+https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440
+
+本地仓库和远程仓库关联
+A 在本地创建一个Git仓库后，又想在Gitub创建一个Git仓库，并且让这两个库远程同步，这样Github的库就可以用来备份同时用来协同操作
+首先在本地建立一个同名的文件库，
+而后在文件的终端输入git remote add origin ... (后面的为responsibility在Github中地址)
+而后输入git push -u origin master
+此命令是将master内容从本地上传至远程，而-u起到的作用是
+
+
+B 将远程仓库的文件clone出来，见GitHub——Method中的Git文件中
