@@ -7,7 +7,8 @@ A 在本地创建一个Git仓库后，又想在Gitub创建一个Git仓库，并�
 首先在本地建立一个同名的文件库，
 而后在文件的终端输入git remote add origin ... (后面的为responsibility在Github中地址)
 而后输入git push -u origin master
-此命令是将master内容从本地上传至远程，而-u起到的作用是
+此命令是将master内容从本地上传至远程，而-u起到的作用是将本地的master和远程的关联
+以后就可以实用git push origin master就行push
 
 
 B 将远程仓库的文件clone出来，见GitHub——Method中的Git文件中
