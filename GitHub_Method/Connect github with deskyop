@@ -13,10 +13,5 @@ git add .
 git commit -m"..."
 git push
 
-以后就可以
-git commit -m"..."
-git push origin master就行push
-
-
 
 B 将远程仓库的文件clone出来，见GitHub——Method中的Git文件中
