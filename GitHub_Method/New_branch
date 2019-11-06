@@ -6,5 +6,5 @@ git branch dev
 2）切换到分支
 git checkout dev
 
-查看当前终端
+查看当前分支
 git branch
