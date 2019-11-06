@@ -1,1 +1,10 @@
 创建分支并且切换到分支
+git checkout -b dev
+=
+1）创建分支
+git branch dev
+2）切换到分支
+git checkout dev
+
+查看当前终端
+git branch
