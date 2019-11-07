@@ -1,10 +1,16 @@
-创建分支并且切换到分支
-git checkout -b dev
+创建分支并且切换到分支，分支名称叫做dev
+git switch -c dev
 =
 1）创建分支
 git branch dev
 2）切换到分支
-git checkout dev
+git switch dev
 
-查看当前分支
+查看当前分支，在items2中查看后按q退出
 git branch
+
+将dev的分支合并到master中
+git merge dev
+合并完成后就可以将dev的分支删除
+git branch -d dev
+
