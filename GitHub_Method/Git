@@ -10,6 +10,7 @@ git clone https://github.com/luxin19950206/LearnGit.git
 3)在相关文件中创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹
 提交修改，首先将终端切换到LearnGit路径
 cd /Users/hengzong/Desktop/LearnGit
+
 4）
 a)将文件添加到仓库 .代表所有的文件
 git add .
